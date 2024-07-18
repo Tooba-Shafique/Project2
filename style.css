@@ -1,0 +1,123 @@
+body {
+    color: white;
+    background-image: url('images/img.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.left {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+    /* border: 2px solid red; */
+    display: inline-block;
+
+}
+
+.left img {
+    width: 10%;
+    height: 10%;
+
+}
+
+.left div {
+    line-height: 50px;
+    font-size: 15px;
+    text-align: left;
+}
+.right {
+
+    position: absolute;
+    right: 34px;
+    top: 50pxpx;
+    margin-top: 25px;
+    display: inline-block;
+    /* border: 2px solid green; */
+}
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.btn:hover {
+    background-color: brown;
+}
+
+.mid {
+    display: block;
+    width: 60%;
+    margin-top: 27px;
+    margin: 23px auto;
+    /* border: 2px solid green; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 25px 20px;
+    border: 2px solid blak;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+.container {
+    /* border: 2px solid red; */
+    margin: 100px 80px;
+    padding: 80px;
+    width: 40%;
+    border-radius: 20px;
+    font-size: 20px;
+    border-radius: 60px;
+}
+
+h1 {
+    align-items: center;
+    font-size: 30px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 8px;
+    margin: 10px auto;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.container button {
+    width: 230px;
+    height: 30px;
+    margin: 12px auto;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    background-color: black;
+}
+
+.container button:hover {
+    background-color: brown;
+}

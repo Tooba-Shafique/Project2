@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TS Fitness
+    </title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
-<!-- this is me tooba shafique -->
+
 <body>
     <header class="header">
-
         <div class="left">
-            <img src="images/img2.jpg" alt="">
-            <div>Tooba's Fitness </div>
+            <img class="logo" src="images/img2.jpg" alt="Tooba's Fitness Logo">
+            <div class="fitness">
+                <span class="tooba">Tooba's</span> <span class="fitness-text">Fitness</span>
+            </div>
         </div>
-
-
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html" class="active" id="home">Home</a></li>
+                <li><a href="#" class="active" id="about">About Us</a></li>
+                <li><a href="#" class="active" id="calculator">Fitness Calculator</a></li>
+                <li><a href="#" class="active" id="contact">Contact Us</a></li>
+            </ul>
+        </nav>
         <div class="right">
             <button class="btn">Call Us Now</button>
-            <button class="btn"> Email Us</button>
+            <button class="btn">Email Us</button>
         </div>
-
-        <div class="mid">
-            <ul class="navbar">
-                <li><a href="#" class="active" id="1">Home</a> </li>
-                <li><a href="#" class="active" id="2">About Us</a></li>
-                <li><a href="#" class="active" id="3">Fitness calculator</a></li>
-                <li><a href="#" class="active" id="4">Contact Us</a></li>
-            </ul>
-        </div>
-
     </header>
-    <div class="container">
-        <h1>Join the best gym of Rawalpindi </h1>
+    <section class="container">
+        <h1>Join the best gym of Rawalpindi</h1>
         <form action="noaction.php">
             <div class="form-group">
-                <input type="text" name="" placeholder=" Enter your Name ">
+                <label for="name">Enter your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Name">
             </div>
             <div class="form-group">
-                <input type="text" name="" placeholder=" Enter your Age ">
+                <label for="age">Enter your Age:</label>
+                <input type="text" id="age" name="age" placeholder="Enter your Age">
             </div>
             <div class="form-group">
-                <input type="text" name="" placeholder=" Enter your Gender ">
+                <label for="gender">Enter your Gender:</label>
+                <input type="text" id="gender" name="gender" placeholder="Enter your Gender">
             </div>
             <div class="form-group">
-                <input type="text" name="" placeholder=" Enter your Locality ">
+                <label for="locality">Enter your Locality:</label>
+                <input type="text" id="locality" name="locality" placeholder="Enter your Locality">
             </div>
-            <button class="btn">Submit</button>
+            <button type="submit" class="btn">Submit</button>
         </form>
-    </div>
+    </section>
+    
+<section class="sec3">
+    
+</section>
 </body>
-
 </html>

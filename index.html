@@ -8,29 +8,31 @@
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header">
+    <nav class="header">
         <div class="left">
-            <img class="logo" src="images/img2.jpg" alt="Tooba's Fitness Logo">
+            <img class="logo" src="images/img3.jpg" alt="Tooba's Fitness Logo">
             <div class="fitness">
                 <span class="tooba">Tooba's</span> <span class="fitness-text">Fitness</span>
             </div>
         </div>
-        <nav class="navbar">
+        <div class="navbar">
             <ul>
-                <li><a href="home.html" class="active" id="home">Home</a></li>
-                <li><a href="#" class="active" id="about">About Us</a></li>
-                <li><a href="#" class="active" id="calculator">Fitness Calculator</a></li>
-                <li><a href="#" class="active" id="contact">Contact Us</a></li>
+                <li><a href="home.html" class="active" id="navval">Home</a></li>
+                <li><a href="#" class="active" id="navval">About Us</a></li>
+                <li><a href="#" class="active" id="navval">Fitness Calculator</a></li>
+                <li><a href="container" class="active" id="navval">Contact Us</a></li>
             </ul>
-        </nav>
+      </div>
         <div class="right">
             <button class="btn">Call Us Now</button>
             <button class="btn">Email Us</button>
         </div>
-    </header>
+    </nav>
     <section class="container">
         <h1>Join the best gym of Rawalpindi</h1>
         <form action="noaction.php">
@@ -59,3 +61,50 @@
 </section>
 </body>
 </html>
+#client-section {
+    text-align: center;
+}
+
+.h-primary {
+    font-family: 'Bree Serif', serif;
+    font-size: 3.1rem;
+    padding: 5px;
+}
+
+#Clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.client-item {
+    margin: 0 10px;
+}
+
+.client-item img {
+    height: 50px; /* Adjust the height as needed */
+    width: auto;
+}
+<!--  -->
+.fitness {
+    font-weight: bold; 
+    font-size: 20px;
+    margin-right: 50px;
+}
+.tooba {
+    color: #e0d1cd; /* Color for Tooba's */
+    margin-top: 100px;
+}
+.fitness-text {
+    color: #33C4FF; /* Color for Fitness */
+    font-size: 40px;
+    
+}
+/* html{
+    scroll-behavior: smooth; */
+nav img{
+    border: 2px solid rgb(26, 24, 24);
+    border-radius: 30px;
+   
+}
